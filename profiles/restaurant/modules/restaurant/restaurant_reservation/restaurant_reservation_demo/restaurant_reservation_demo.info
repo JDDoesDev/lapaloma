@@ -1,0 +1,18 @@
+name = Restaurant Reservation Demo
+description = Provides demo content for Open Restaurant Reservation
+core = 7.x
+package = Open Restaurant Demo
+project = restaurant_reservation_demo
+dependencies[] = migrate
+dependencies[] = restaurant_reservation
+features[features_api][] = api:2
+files[] = migrations/slideshow.inc
+files[] = migrations/slide.inc
+files[] = migrations/text.inc
+
+; Information added by Drupal.org packaging script on 2016-03-10
+version = "7.x-1.0"
+core = "7.x"
+project = "restaurant"
+datestamp = "1457589984"
+

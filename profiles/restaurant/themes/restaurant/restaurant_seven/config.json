@@ -1,0 +1,9 @@
+{
+  "name": "Restaurant Seven",
+  "description": "Administration theme for Open Restaurant.",
+  "browserSyncProxy" : "http://openrestaurant.dev/",
+  "bowerDir": "./bower_components",
+  "sassIncludePaths": [
+    "./bower_components/font-awesome/scss"
+  ]
+}

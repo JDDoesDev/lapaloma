@@ -1,0 +1,80 @@
+name = Open Restaurant
+description = "A distribution to build Restaurant websites"
+version = VERSION
+core = 7.x
+distribution_name = Open Restaurant
+exclusive = 1
+
+; Drupal Core
+dependencies[] = menu
+dependencies[] = image
+dependencies[] = list
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = dblog
+dependencies[] = update
+
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+; dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
+; Panopoly Recommended - Admin
+dependencies[] = backports
+dependencies[] = simplified_menu_admin
+dependencies[] = save_draft
+dependencies[] = module_filter
+dependencies[] = date_popup_authored
+
+; Panopoly Recommended - Other
+dependencies[] = devel
+dependencies[] = uuid
+
+; Panopoly Contrib
+dependencies[] = panopoly_config
+; dependencies[] = panopoly_seo
+
+; Restaurant
+dependencies[] = restaurant_admin
+dependencies[] = restaurant_admin_links
+dependencies[] = restaurant_toolbar
+dependencies[] = restaurant_base
+dependencies[] = restaurant_mail
+dependencies[] = restaurant_pages
+dependencies[] = restaurant_plugins
+dependencies[] = restaurant_theme
+dependencies[] = restaurant_user
+dependencies[] = restaurant_wysiwyg
+
+; Restaurant Core Dependencies
+dependencies[] = shortcut
+; dependencies[] = contact
+
+; Other
+copyright = Drupal is a registered trademark of Dries Buytaert.
+
+; Guide
+guide[url] = https://github.com/openrestaurant/help
+guide[version] = master
+
+; Information added by Drupal.org packaging script on 2016-03-10
+version = "7.x-1.0"
+core = "7.x"
+project = "restaurant"
+datestamp = "1457589984"
+

@@ -1,0 +1,10 @@
+name = Restaurant Theme
+description = Theming helpers for the Restaurant Distribution
+core = 7.x
+package = Open Restaurant
+version = 7.x-1.0
+project = restaurant
+dependencies[] = restaurant_base
+datestamp = 1457589984
+features[features_api][] = api:2
+files[] = plugins/views/restaurant_theme_view_style.inc

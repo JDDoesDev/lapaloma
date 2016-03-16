@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Restaurant Demo feature.
+ */
+
+include_once 'restaurant_demo.features.inc';

@@ -1,0 +1,32 @@
+.front-page-main {
+  .slide-text {
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    color: $h1-text;
+    font-size: 20px;
+    h1 {
+      color: $h1-text;
+      font-size: 2em;
+    }
+    p {
+    }
+    @include breakpoint(md) {
+      background-color: rgba(0, 0, 0, 0.5);
+      top: 55%;
+      left: 15%;
+      display: block;
+      padding: 2em 4em;
+      max-width: 50%;
+      h1 {
+        font-size:45px;
+        text-shadow: 1px 1px 3px #222;
+      }
+      p {
+        font-size: 30px;
+        color: $h1-text;
+      }
+    }
+  }
+}
