@@ -46,10 +46,14 @@ if ($is_front) : ?>
       <?php endif; ?>
       <div class="address margin--sm--top">
         <?php if (!empty($address)): ?>
-          <i class="fa fa-map-marker"></i> <?php print $address; ?>
+          <a href="https://goo.gl/maps/xwbodjuRTr72">
+            <i class="fa fa-map-marker"></i> <?php print $address; ?>
+          </a>
         <?php endif; ?>
         <?php if (!empty($phone)): ?>
+        <a href="tel:+<?= $phone; ?>">
           <i class="fa fa-phone margin--sm--left"></i> <?php print $phone; ?>
+        </a>
         <?php endif; ?>
       </div>
       <?php if ($tabs): ?>

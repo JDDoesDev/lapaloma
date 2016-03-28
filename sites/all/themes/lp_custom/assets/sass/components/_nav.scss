@@ -74,7 +74,7 @@ ul.navbar-nav {
     margin: 15px 0 10px;
     padding: 0 6px;
     @include breakpoint(md) {
-      padding: 9px 0 9px 17px;
+      padding: 5px 0 5px 10px;
       margin: 0;
       &:before {
         content: "\2726";
@@ -92,7 +92,7 @@ ul.navbar-nav {
     }
     + li {
       @include breakpoint(md) {
-        margin-left: 17px;
+        margin-left: 10px;
       }
     }
   }
@@ -111,8 +111,10 @@ ul.navbar-nav {
       @include breakpoint(md) {
         padding: 4px 10px;
         font-size: 20px;
+        font-family: "Open Sans Condensed", sans-serif;
+      }
+      @include breakpoint(lg) {
         letter-spacing: 2px;
-        font-family: "Open Sans", sans-serif;
       }
     }
   }
