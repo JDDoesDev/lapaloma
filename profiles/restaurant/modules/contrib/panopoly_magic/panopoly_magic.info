@@ -1,0 +1,16 @@
+name = Panopoly Magic
+description = Weaves together the chaos magic.
+core = 7.x
+package = Panopoly
+version = 7.x-1.32
+project = panopoly_magic
+dependencies[] = ctools
+dependencies[] = fape
+dependencies[] = features
+dependencies[] = page_manager
+dependencies[] = panels_ipe
+dependencies[] = views
+stylesheets[all][] = 1
+datestamp = 1457025209
+features[features_api][] = api:2
+files[] = plugins/views/panopoly_magic_plugin_display_panel_pane.inc

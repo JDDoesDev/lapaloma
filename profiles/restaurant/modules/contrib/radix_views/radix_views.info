@@ -1,0 +1,16 @@
+name = Radix Views
+package = Views
+description = Views + Radix.
+core = 7.x
+
+dependencies[] = views
+
+files[] = plugins/radix_views_grid_plugin_style.inc
+
+
+; Information added by drush on 2016-03-10
+version = "7.x-1.0+0-dev"
+core = "7.x"
+project = "radix_views"
+datestamp = "1457590013"
+

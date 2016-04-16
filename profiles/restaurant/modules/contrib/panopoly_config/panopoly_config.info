@@ -1,0 +1,9 @@
+name = Panopoly Config
+description = Build configuration pages for your distribution.
+core = 7.x
+package = Panopoly
+version = 7.x-1.0
+project = panopoly_config
+dependencies[] = variable
+datestamp = 1445117640
+features[features_api][] = api:2
