@@ -45,6 +45,9 @@
 // Page tabs.
 // -----------------------------------------------------------------------------
 .page-tabs {
+  top: 10px;
+  position: relative;
+  z-index: 5;
   ul.nav-tabs {
     margin: 10px auto 0;
     border: 0;

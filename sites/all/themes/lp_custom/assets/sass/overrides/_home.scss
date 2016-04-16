@@ -12,13 +12,14 @@
     }
     p {
     }
-    @include breakpoint(md) {
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+    @include breakpoint(lg) {
       background-color: rgba(0, 0, 0, 0.5);
-      top: 55%;
-      left: 15%;
       display: block;
-      padding: 2em 4em;
-      max-width: 50%;
+      padding: 7em 4em 2em;
       h1 {
         font-size:45px;
         text-shadow: 1px 1px 3px #222;
