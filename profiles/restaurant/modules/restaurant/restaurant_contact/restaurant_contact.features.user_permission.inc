@@ -13,7 +13,9 @@ function restaurant_contact_user_default_permissions() {
   // Exported permission: 'access site-wide contact form'.
   $permissions['access site-wide contact form'] = array(
     'name' => 'access site-wide contact form',
-    'roles' => array(),
+    'roles' => array(
+      'anonymous user' => 'anonymous user',
+    ),
     'module' => 'contact',
   );
 
