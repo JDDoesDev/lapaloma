@@ -31,6 +31,7 @@ function restaurant_menu_user_default_permissions() {
     'name' => 'create menu content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -40,6 +41,7 @@ function restaurant_menu_user_default_permissions() {
     'name' => 'delete any menu content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -49,6 +51,7 @@ function restaurant_menu_user_default_permissions() {
     'name' => 'delete own menu content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -72,6 +75,7 @@ function restaurant_menu_user_default_permissions() {
     'name' => 'edit any menu content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );
@@ -88,6 +92,7 @@ function restaurant_menu_user_default_permissions() {
     'name' => 'edit own menu content',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
     ),
     'module' => 'node',
   );

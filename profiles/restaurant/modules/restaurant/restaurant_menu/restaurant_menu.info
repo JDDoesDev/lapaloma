@@ -9,7 +9,6 @@ dependencies[] = better_exposed_filters
 dependencies[] = commerce_features
 dependencies[] = commerce_product_reference
 dependencies[] = commerce_product_ui
-dependencies[] = entityqueue
 dependencies[] = field_collection
 dependencies[] = field_group
 dependencies[] = field_slideshow
