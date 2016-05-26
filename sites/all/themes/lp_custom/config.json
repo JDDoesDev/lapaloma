@@ -1,7 +1,7 @@
 {
   "name": "lapalomacustom ",
   "description": "A starter theme for Open Restaurant based on Radix.",
-  "browserSyncProxy" : "http://openrestaurant.dev",
+  "browserSyncProxy" : "http://paloma.local/",
   "bowerDir": "./bower_components",
   "sassIncludePaths": [
     "./bower_components/bootstrap-sass/assets/stylesheets",

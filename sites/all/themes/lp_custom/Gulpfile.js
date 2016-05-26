@@ -4,6 +4,7 @@ var browserSync = require('browser-sync').create();
 var config = require('./config.json');
 
 // Include plugins.
+var cleanCSS = require('gulp-clean-css');
 var sass = require('gulp-sass');
 var imagemin = require('gulp-imagemin');
 var pngcrush = require('imagemin-pngcrush');
@@ -48,11 +49,16 @@ gulp.task('sass', function() {
     }))
     .pipe(autoprefix('last 2 versions', '> 1%', 'ie 9', 'ie 10'))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('assets/css'));
+    .pipe(gulp.dest('pre/css'));
 });
 
+gulp.task('minify-css', ['sass'], function() {
+  return gulp.src('pre/css/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('assets/css'));
+});
 // Static Server + watching scss files
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['sass', 'minify-css'], function() {
   browserSync.init({
     proxy: config.browserSyncProxy
   })

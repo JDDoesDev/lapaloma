@@ -19,6 +19,7 @@
     "gulp-sass": "~2.0.1",
     "gulp-shell": "~0.4.1",
     "gulp-util": "~3.0.5",
-    "gulp-sass-glob": "0.0.2"
+    "gulp-sass-glob": "0.0.2",
+    "gulp-clean-css": "~2.0.8"
   }
 }

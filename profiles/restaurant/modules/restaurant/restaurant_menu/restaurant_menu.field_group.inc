@@ -23,9 +23,9 @@ function restaurant_menu_field_group_info() {
     'label' => 'Fields',
     'weight' => '2',
     'children' => array(
-      0 => 'group_menu',
+      0 => 'group_locations',
       1 => 'group_images',
-      2 => 'group_locations',
+      2 => 'group_menu',
       3 => 'group_nutrition',
       4 => 'group_variants',
     ),
@@ -192,8 +192,9 @@ function restaurant_menu_field_group_info() {
       0 => 'body',
       1 => 'field_menu_categories',
       2 => 'field_menu_featured',
-      3 => 'field_menu_teaser_text',
-      4 => 'field_menu_one_liner',
+      3 => 'field_menu_one_liner',
+      4 => 'field_menu_teaser_text',
+      5 => 'field_price',
     ),
     'format_type' => 'htab',
     'format_settings' => array(
@@ -275,13 +276,11 @@ function restaurant_menu_field_group_info() {
   $field_group->entity_type = 'node';
   $field_group->bundle = 'menu';
   $field_group->mode = 'form';
-  $field_group->parent_name = 'group_fields';
+  $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Types',
     'weight' => '8',
-    'children' => array(
-      0 => 'field_menu_types',
-    ),
+    'children' => array(),
     'format_type' => 'htab',
     'format_settings' => array(
       'formatter' => 'closed',

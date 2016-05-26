@@ -28,11 +28,17 @@ body {
   margin-bottom: 10px;
   .logo-container {
     text-align: center;
+    img {
+      height: 4em;
+    }
   }
   @include breakpoint(md) {
     margin-bottom: -50px;
     .logo-container {
       text-align: left;
+      img {
+        height: auto;
+      }
     }
     .address {
       float: right;

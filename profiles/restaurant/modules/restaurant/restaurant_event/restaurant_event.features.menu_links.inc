@@ -41,7 +41,7 @@ function restaurant_event_menu_default_menu_links() {
       'identifier' => 'main-menu_events:events',
     ),
     'module' => 'system',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 1,
     'expanded' => 0,

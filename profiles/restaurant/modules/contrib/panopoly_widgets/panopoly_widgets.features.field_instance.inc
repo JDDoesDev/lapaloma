@@ -165,9 +165,7 @@ function panopoly_widgets_field_default_field_instances() {
         'manualcrop_keyboard' => 1,
         'manualcrop_maximize_default_crop_area' => 1,
         'manualcrop_require_cropping' => array(),
-        'manualcrop_styles_list' => array(
-          'panopoly_image_full' => 'panopoly_image_full',
-        ),
+        'manualcrop_styles_list' => array(),
         'manualcrop_styles_mode' => 'include',
         'manualcrop_thumblist' => 0,
         'preview_image_style' => 'thumbnail',

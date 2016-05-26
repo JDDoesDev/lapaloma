@@ -60,13 +60,25 @@ function restaurant_seo_metatag_export_default() {
     'instance' => 'global:frontpage',
     'config' => array(
       'title' => array(
-        'value' => '[site:name]',
+        'value' => 'La Paloma Bar and Grill | Michigan City, IN 46350',
+      ),
+      'description' => array(
+        'value' => 'La Paloma Bar and Grill is Michigan City, Indiana\'s newest destination for casual Mexian and American food.  Come enjoy our newly remodeled family dining area, or enjoy a drink next to the fireplace in our full-service bar and lounge.',
+      ),
+      'keywords' => array(
+        'value' => 'michigan city, mexican restaurant, bars, nightlife, 46360',
       ),
       'canonical' => array(
         'value' => '[site:url]',
       ),
       'shortlink' => array(
         'value' => '[site:url]',
+      ),
+      'og:site_name' => array(
+        'value' => 'La Paloma Bar and Grill',
+      ),
+      'og:title' => array(
+        'value' => 'La Paloma Bar and Grill',
       ),
     ),
   );

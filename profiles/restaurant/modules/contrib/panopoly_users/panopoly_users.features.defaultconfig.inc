@@ -85,7 +85,6 @@ function panopoly_users_defaultconfig_user_default_permissions() {
     'name' => 'administer panelizer user user content',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );
@@ -113,7 +112,6 @@ function panopoly_users_defaultconfig_user_default_permissions() {
     'name' => 'administer panelizer user user layout',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'panelizer',
   );

@@ -49,14 +49,14 @@ function restaurant_location_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'addressfield_staticmap_directions_link_0';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['addressfield_staticmap_directions_link_0'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'addressfield_staticmap_directions_link_1';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['addressfield_staticmap_directions_link_1'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -85,7 +85,7 @@ function restaurant_location_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'addressfield_staticmap_field_names';
   $strongarm->value = array(
-    'field_location_address' => 'field_location_address',
+    'field_event_location' => 'field_event_location',
   );
   $export['addressfield_staticmap_field_names'] = $strongarm;
 
@@ -107,7 +107,7 @@ function restaurant_location_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'addressfield_staticmap_gmap_link_0';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['addressfield_staticmap_gmap_link_0'] = $strongarm;
 
   $strongarm = new stdClass();

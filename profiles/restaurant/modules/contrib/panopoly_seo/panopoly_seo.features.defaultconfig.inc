@@ -62,7 +62,6 @@ function panopoly_seo_defaultconfig_user_default_permissions() {
     'name' => 'create url aliases',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'path',
   );

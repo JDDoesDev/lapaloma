@@ -62,25 +62,13 @@ function panopoly_images_image_default_styles() {
   $styles['panopoly_image_full'] = array(
     'label' => 'Full width (of the containing region - could upscale small images)',
     'effects' => array(
-      1 => array(
-        'name' => 'manualcrop_crop',
-        'data' => array(
-          'width' => 20,
-          'height' => 20,
-          'keepproportions' => 0,
-          'reuse_crop_style' => '',
-          'style_name' => 'panopoly_image_full',
-        ),
-        'weight' => 1,
-      ),
-      2 => array(
-        'name' => 'image_scale',
+      3 => array(
+        'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 1200,
-          'height' => '',
-          'upscale' => 0,
+          'height' => 600,
         ),
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
   );

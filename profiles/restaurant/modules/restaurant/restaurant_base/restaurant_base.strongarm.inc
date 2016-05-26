@@ -64,12 +64,12 @@ function restaurant_base_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'disqus_nodetypes';
   $strongarm->value = array(
-    'blog_post' => 'blog_post',
-    'event' => 'event',
-    'menu' => 'menu',
     'panopoly_landing_page' => 0,
     'panopoly_page' => 0,
+    'blog_post' => 0,
+    'event' => 0,
     'location' => 0,
+    'menu' => 0,
   );
   $export['disqus_nodetypes'] = $strongarm;
 

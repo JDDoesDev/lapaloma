@@ -10,7 +10,6 @@ dependencies[] = features
 dependencies[] = page_manager
 dependencies[] = panels_ipe
 dependencies[] = views
-stylesheets[all][] = 1
 datestamp = 1457025209
 features[features_api][] = api:2
 files[] = plugins/views/panopoly_magic_plugin_display_panel_pane.inc

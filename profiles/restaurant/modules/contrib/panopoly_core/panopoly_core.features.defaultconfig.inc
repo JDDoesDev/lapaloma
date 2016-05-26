@@ -510,7 +510,6 @@ function panopoly_core_defaultconfig_user_default_permissions() {
     'name' => 'administer panels styles',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'panels',
   );
@@ -520,7 +519,6 @@ function panopoly_core_defaultconfig_user_default_permissions() {
     'name' => 'change layouts in place editing',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'panels',
   );
@@ -530,7 +528,6 @@ function panopoly_core_defaultconfig_user_default_permissions() {
     'name' => 'use page manager',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'page_manager',
   );
@@ -540,7 +537,6 @@ function panopoly_core_defaultconfig_user_default_permissions() {
     'name' => 'use panels in place editing',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
     ),
     'module' => 'panels',
   );

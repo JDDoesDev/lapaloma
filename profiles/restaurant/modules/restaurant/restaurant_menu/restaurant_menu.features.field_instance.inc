@@ -263,7 +263,7 @@ function restaurant_menu_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 13,
+      'weight' => 11,
     ),
   );
 
@@ -334,7 +334,7 @@ function restaurant_menu_field_default_field_instances() {
         'display_label' => 1,
       ),
       'type' => 'options_onoff',
-      'weight' => 12,
+      'weight' => 10,
     ),
   );
 

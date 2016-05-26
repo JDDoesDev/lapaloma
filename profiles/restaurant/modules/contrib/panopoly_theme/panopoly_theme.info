@@ -6,7 +6,5 @@ version = 7.x-1.32
 project = panopoly_theme
 dependencies[] = panels
 dependencies[] = radix_layouts
-stylesheets[all][] = 1
-stylesheets[all][] = 2
 datestamp = 1457025236
 features[features_api][] = api:2
